@@ -12,15 +12,17 @@ This repository contains our demo code to run inference (predict) if an individu
 ---
 
 ## 📦 Repository Structure
-.
-├── src/ # core library code
-├── .gitignore # files and folders to ignore
-├── README.md # this file
-├── demo_inference.py # command-line demo script
-├── demo_inference.ipynb # interactive Jupyter demo
-├── graph_abs.pdf # original PDF of the graphical abstract
-└── quest2dx_env.yml # conda environment spec
 
+```plaintext
+.
+├── src/                      # core library code
+├── .gitignore                # files and folders to ignore
+├── README.md                 # this file
+├── demo_inference.py         # command-line demo script
+├── demo_inference.ipynb      # interactive Jupyter demo
+├── graph_abs.pdf             # original PDF of the graphical abstract
+└── quest2dx_env.yml          # conda environment spec
+```
 ---
 
 ## 🔨 Create the conda environment
@@ -36,15 +38,17 @@ conda activate quest2dx
 
 # (Optional) Install in editable mode to import from src/
 pip install -e src
-
+```
 
 ▶️ Run the demo
 
 # Show available options
+``` bash
 python demo_inference.py --help
-
+```
+``` bash
 jupyter notebook demo_inference.ipynb
-
+```
 ---
 
 Note that, due to privacy limitations data cannot be publicly shared.
