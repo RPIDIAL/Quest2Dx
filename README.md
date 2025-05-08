@@ -16,6 +16,10 @@ This repository contains our demo code to run inference (predict) if an individu
 ```plaintext
 .
 ├── src/                      # core library code
+│   ├── ft_transformer_wPosEnc.py  # Quest2Dx Transformer base
+│   ├── utils.py                   # utility functions
+│   ├── utils_simplified.py        # simplified utilities
+│   └── quest2dx_env_simpf.yml     # simplified conda environment spec
 ├── .gitignore                
 ├── README.md                 
 ├── demo_inference.py         # command-line demo script
