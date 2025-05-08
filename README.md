@@ -51,8 +51,10 @@ python demo_inference.py --help
 ``` bash
 jupyter notebook demo_inference.ipynb
 ```
----
-
 Note that, due to privacy limitations data cannot be publicly shared.
+
+Please use the CodeOcean capsule to perform a reproducible run https://doi.org/10.24433/CO.7017020.v1
+
+--- 
 
 Please refer to our manuscript for further details: https://www.medrxiv.org/content/10.1101/2024.09.23.24314200v1.full-text
