@@ -16,11 +16,11 @@ This repository contains our demo code to run inference (predict) if an individu
 ```plaintext
 .
 ├── src/                      # core library code
-├── .gitignore                # files and folders to ignore
-├── README.md                 # this file
+├── .gitignore                
+├── README.md                 
 ├── demo_inference.py         # command-line demo script
 ├── demo_inference.ipynb      # interactive Jupyter demo
-├── graph_abs.pdf             # original PDF of the graphical abstract
+├── graph_abs.pdf            
 └── quest2dx_env.yml          # conda environment spec
 ```
 ---
@@ -40,9 +40,7 @@ conda activate quest2dx
 pip install -e src
 ```
 
-▶️ Run the demo
-
-# Show available options
+## ▶️ Run the demo
 ``` bash
 python demo_inference.py --help
 ```
